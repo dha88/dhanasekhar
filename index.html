@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+      header
+      {
+        background-color:darkblue;
+        color:white;
+        border:1PX solid black ;
+        padding:10PX;
+        padding-left:30px;
+        
+      }
+     
+      
+      .borad 
+      {
+        display: flex;
+        justify-content: space-between;
+        color:rgb(9, 157, 207);
+        
+        
+      }
+      .bcci 
+      {
+        padding-top:10px;
+        padding-right:100px;
+      }
+      .borad1 
+      {
+        display: grid;
+        margin-right:700px;
+        font-size:10px;
+
+      }
+      .borad1 img 
+      {
+       
+      }
+      i
+      {
+       padding:5px;
+       color:gray;
+       font-family: arial;
+       font-size: 15px;
+       font-weight: bold;
+      }
+      nav
+      {
+        display: flex;
+        background-color:rgb(35, 35, 196);
+        text-align:center
+
+      }
+      .nav1 
+      {
+        display: flex;
+      }
+      .nav1 img 
+      {
+        width:70px;
+        height:30px;
+        padding-left:2px;
+        
+      }
+      .ipl img
+      {
+        width:70px;
+        height:40px;
+        padding-left:50px;
+        padding-top:10px;
+      }
+     ol {
+      display: flex;
+      gap: 25px;
+      margin-left: 70px;
+      font-family: arial;
+      font-weight: bold;
+      color:white;
+      padding-top:5px;
+     
+     }
+     li {
+     list-style:none;
+     }
+     .card 
+    {
+      height:260px;
+      width:250px;
+      border:2px solid whitesmoke;
+      background-color:white;
+      margin-top: 50px;
+      margin-bottom:20px;
+      margin-left: 30px;
+     }
+     img
+     {
+      height:100%;
+      padding-left:20px;
+     }
+     .text
+     {
+      text-align: center;
+      padding-top:10px;
+      border:2px solid whitesmoke;
+      background-color:white;
+      padding:12px;
+     }
+     .title 
+     {
+      margin-top:50px;
+      margin-left:30px;
+     }
+     .players 
+     {
+      display: grid;
+      grid-template-columns:3fr 3fr 3fr 3fr;
+     }
+     .team
+     {
+       display: grid;
+       grid-template-columns:1fr 1fr;
+       padding-top:10px;  
+     }
+     .batsman 
+     {
+      text-align:right;
+      padding-right:15px;
+     }
+     
+      
+    </style>
+</head>
+<body>
+    <header>
+      <div class="borad">
+        <div class="logo">
+          <img src="BCCI_logo.png" alt="">
+        </div>
+        <div class="bcci">
+            <font>BCCI.TV</font>
+        </div>
+        <div class="borad1">
+          <img src="womens-premier-league-logo.svg" alt="">
+        </div>
+        <div>
+          <font face="arial" size="4" color="gray">Follow us</font>
+          <i class="bi bi-twitter-x"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+        </div>
+      </div>
+    </header>
+    <article>
+      <nav>
+        <div class="ipl">
+          <img src="ipl-logo-new-old.png" alt="">
+            
+        </div>
+        
+        <div class="nav1">
+           <div>
+            <ol>
+                <li>MATCHES</li>
+                <li>VIDEOS</li>
+                <li>STATS</li>
+                <li>POINTS TABLE</li>
+                <li>TEAMS</li>
+                <li>NEWS</li>
+                <li>MORE</li>
+            </ol>
+           </div>
+           <div>
+            <ol>
+              <img src="fan-poll.svg" alt="">
+              <img src="viewers-choice.svg" alt="">
+              <img src="new-search-icon.svg" alt="">
+            </ol>
+           </div>
+        </div>
+        </nav>
+        </article>
+        
+      <main>
+          <div class="title">
+            <font face="arial" size="6">Batters</font>
+          </div>
+        <div class="players">
+            
+          <div class="card">
+            <div class="team">
+              <div class="captain">
+              <img src="teams-captain-icon.svg" alt="" >
+              </div>
+              <div class="batsman">
+              <img src="teams-batsman-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="card-header">
+               <img src="102.webp" alt="" width="200" height="200">
+            </div>
+            <div class="text">
+              <font face="arial">RUTURAJ GAIKWAD</font>
+              <div class="text1">
+              <font face="arial" color="gray">Batter</font>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team">
+              <div class="captain">
+              <img src="teams-foreign-player-icon.svg" alt="" >
+              </div>
+              <div class="batsman">
+              <img src="teams-batsman-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="card-header">
+              <span class="bi bi-C"></span>
+              <span class="bi bi-cricket-bat"></span>
+               <img src="player2.webp" alt="" width="200" height="200">
+            </div>
+            <div class="text">
+              <font face="arial">DEVON CONWAY</font>
+              <div class="text1">
+              <font face="arial" color="gray">Batter</font>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team">
+              <div class="captain">
+              
+              </div>
+              <div class="batsman">
+              <img src="teams-wicket-keeper-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="card-header">
+              <span class="bi bi-C"></span>
+              <span class="bi bi-cricket-bat"></span>
+               <img src="player3.webp" alt="" width="200" height="200">
+            </div>
+            <div class="text">
+              <font face="arial">MS DHONI</font>
+              <div class="text1">
+              <font face="arial" color="gray">Wicketkeeper Batter</font>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team">
+              <div class="captain">
+              
+              </div>
+              <div class="batsman">
+              <img src="teams-batsman-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="card-header">
+              <span class="bi bi-C"></span>
+              <span class="bi bi-cricket-bat"></span>
+               <img src="player4.webp" alt="" width="200" height="200">
+            </div>
+            <div class="text">
+              <font face="arial">AJINKYA RAHANE</font>
+              <div class="text1">
+              <font face="arial" color="gray">Batter</font>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team">
+              <div class="captain">
+              
+              </div>
+              <div class="batsman">
+              <img src="teams-batsman-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="card-header">
+              <span class="bi bi-C"></span>
+              <span class="bi bi-cricket-bat"></span>
+               <img src="player5.webp" alt="" width="200" height="200">
+            </div>
+            <div class="text">
+              <font face="arial">SHAIK RASHEED</font>
+              <div class="text1">
+              <font face="arial" color="gray">Batter</font>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team">
+              <div class="captain">
+              
+              </div>
+              <div class="batsman">
+              <img src="teams-batsman-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="card-header">
+              <span class="bi bi-C"></span>
+              <span class="bi bi-cricket-bat"></span>
+               <img src="player6.webp" alt="" width="200" height="200">
+            </div>
+            <div class="text">
+              <font face="arial">SAMEER RIZVI</font>
+              <div class="text1">
+              <font face="arial" color="gray">Batter</font>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="team">
+              <div class="captain">
+              
+              </div>
+              <div class="batsman">
+              <img src="teams-batsman-icon.svg" alt="">
+              </div>
+            </div>
+            <div class="card-header">
+              <span class="bi bi-C"></span>
+              <span class="bi bi-cricket-bat"></span>
+               <img src="player7.webp" alt="" width="200" height="200">
+            </div>
+            <div class="text">
+              <font face="arial">AVANISH RAO ARAVELLY</font>
+              <div class="text1">
+              <font face="arial" color="gray">Wicketkeeper Batter</font>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <font face="arial" size="6">All-rounders</font>
+      </div>
+      <div class="players">
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+             <img src="all-rounder.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">RAVINDRA JADEJA</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder1.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">MITCHELL SANTNER</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder2.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">MOEEN ALI</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder3.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">SHIVAM DUBE</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder4.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">NISHANT SINDHU</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder5.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">AJAY MANDAL</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder6.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">RACHIN RAVINDRA</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder7.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">SHARDUL THAKUR</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-all-rounder-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="all-rounder8.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">DARYL MITCHELL</font>
+            <div class="text1">
+            <font face="arial" color="gray">All-rounder</font>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <font face="arial" size="6">Bowlers</font>
+      </div>
+      <div class="players">
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+             <img src="bowler1.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">RICHARD GLEESON</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler2.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">RAJVARDHAN HANGARGEKAR</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler3.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">DEEPAK CHAHAR</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler4.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">MAHEESH THEEKSHANA</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler5.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">MUKESH CHOUDHARY</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler6.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">MUSTAFIZUR RAHMAN</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler7.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">PRASHANT SOLANKI</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler8.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">SIMARJEET SINGH</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+            
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler9.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">TUSHAR DESHPANDE</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="team">
+            <div class="captain">
+             <img src="teams-foreign-player-icon.svg" alt="">
+            </div>
+            <div class="batsman">
+            <img src="teams-bowler-icon.svg" alt="">
+            </div>
+          </div>
+          <div class="card-header">
+            <span class="bi bi-C"></span>
+            <span class="bi bi-cricket-bat"></span>
+             <img src="bowler10.webp" alt="" width="200" height="200">
+          </div>
+          <div class="text">
+            <font face="arial">MATHEESHA PATHIRANA</font>
+            <div class="text1">
+            <font face="arial" color="gray">Bowler</font>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+  
+</body>
+</html>
